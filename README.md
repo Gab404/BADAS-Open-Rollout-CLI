@@ -1,4 +1,4 @@
-# BADAS-Open: State-of-the-Art Ego-Centric Collision Prediction
+# BADAS-Open-CLI: Ego-Centric Collision Prediction with attention/grad rollout
 
 <div align="center">
 
@@ -22,7 +22,7 @@
   </p>
 </div>
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Installation
 
@@ -49,7 +49,7 @@ pip install -r requirements.txt
 Use `inference.py` to run the model on a specific video
 
 ```bash
-python inference.py --video-path dash_cam.mp4 --export-video output.mp4 --heatmap
+python inference.py --video-path dash_cam.mp4 --export-video output.mp4 --attn-rollout
 ```
 
 **Available Flags:**
@@ -57,7 +57,8 @@ python inference.py --video-path dash_cam.mp4 --export-video output.mp4 --heatma
 * `--real-time` : Enables an OpenCV GUI window showing the video playback. (Not working for now)
 * `--time` : Display the average runtime for a prediction (16 frames processing).
 * `--export-video` : Saves a new video with the risk gauge overlay (e.g., output.mp4).
-* `--heatmap` : Active Grad-Rollout heat map (`--export-video` must be on).
+* `--grad-rollout` : Active Gradient Rollout heat map (`--export-video` must be on).
+* `--attn-rollout` : Active Attention Rollout heat map (`--export-video` must be on).
 
 ### Basic Usage
 
