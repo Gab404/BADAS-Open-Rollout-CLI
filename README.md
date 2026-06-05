@@ -15,10 +15,8 @@
   <p align="center">
     <img src="./data/attn.gif" alt="Attention Rollout" width="400"/>
     &nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="./data/attn_grad.gif" alt="Grad-Rollout" width="400"/>
     <br><br>
     <strong>Attention Rollout</strong> <em>(Left)</em> : Model's attention visualization<br>
-    <strong>Grad-Rollout</strong> <em>(Right)</em> : Model's attention x gradients visualization
   </p>
 </div>
 
