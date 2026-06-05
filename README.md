@@ -16,7 +16,7 @@
     <img src="./data/attn.gif" alt="Attention Rollout" width="400"/>
     &nbsp;&nbsp;&nbsp;&nbsp;
     <br><br>
-    <strong>Attention Rollout</strong> <em>(Left)</em> : Model's attention visualization<br>
+    <strong>Attention Rollout</strong> : Model's attention visualization<br>
   </p>
 </div>
 
